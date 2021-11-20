@@ -6,7 +6,11 @@ import {
   printError,
   printWeather,
 } from "./services/log.service.js";
-import { saveKeyValue, TOKEN_DICTIONARY } from "./services/storage.service.js";
+import {
+  getKeyValue,
+  saveKeyValue,
+  TOKEN_DICTIONARY,
+} from "./services/storage.service.js";
 import { getIcon, getWeather } from "./services/api.service.js";
 
 const saveToken = async (token) => {
