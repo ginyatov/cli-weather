@@ -1,6 +1,6 @@
 {
   "name": "weather-cli-gai",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI for weather",
   "bin": {
     "weather": "weather.js"
